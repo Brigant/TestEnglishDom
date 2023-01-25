@@ -17,7 +17,7 @@ services:
       - internal
     volumes:
       - ./www/:/var/www/html/
-      - ./logs/php.log:/var/log/fpm-php.www.log
+      - ./logs/phplog:/var/log/fpm-php.www.log
 networks:
   internal:
     driver: bridge
